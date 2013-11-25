@@ -1,0 +1,591 @@
+Otwarcia:
+
+1TKCP	5+					12-21
+1NT		Sk³ad zrównowa¿ony		12-15
+2T		klasyczne NT			16-18(19)
+2K		Acol					21+
+2CP		Blok na 6				9-13
+		W korzystnych	
+		za³o¿eniach mo¿e byæ z pi¹tki
+2NT		Zrównowa¿ony			(19)20-21
+3TK		Konstruktywne
+3CP 		Blok
+3NT		Gambling
+
+		
+
+
+
+
+Ogólne za³o¿enia:
+
+1Na trzeciej rêce NT powinno byæ silne, 2T acol a 2K s³abe na 6
+ale to siê jeszcze ustali. :)
+
+2. Ze sk³adem 4441otwieramy 1K (1T przy 4414 i ) i jest to jedyny sk³ad przy
+przy którym ta odzywka nie obiecuje 5 kart.
+
+3. Acolem mo¿na( a nawet trzeba) te¿ otworzyæ maj¹c
+9 lew wygrywaj¹cych przy 4 lewach defensywnych.
+
+4. Ze sk³adem 55 otwieramy w ni¿szy w sile rewersu
+a w wy¿szy gdy nañ nie mamy.
+
+5. Pamiêtajmy, ¿e nie wszystko mo¿na zapisaæ liczbami.
+Nie tylko iloœæ jest wa¿na, ale tak¿e jakoœæ.
+
+
+
+
+
+
+
+
+
+
+
+Odpowiedzi po 1 trefl:					Odpowiedzi od £ADNYCH 4 ;)
+
+1KC		transfer 4+				4-11		
+1P		bez S4				4-11			
+1NT		GF					12+		
+2T		fit 4+				7-11---->	tzw. 'Odwrócone podniesienie'
+2K		6+					7-11
+2CP		6+					7-11
+2NT		inwit z 5 karami			9-11
+3T		fit 5(4)+				4-7
+3KCP		splinter				12+
+3NT		3334i/4333i				12-15
+
+1T-1K
+
+1C		3 kiery			12+---->		wy¿sze wykluczaj¹ 
+1P		4+ piki				12-15		dok³adnie 3 kiery
+1NT		4 kara					12-15
+2T		6+					12-15
+2K		rewers 4+				16+
+2C		4+ 					12-15
+2P		rewers				16+
+2NT		przejœciowe				19-21
+3T		6+					16-18
+3KP		splinter				19-21
+3C		inwit z 4+ kierami			16-18
+
+
+1T-1K
+1C
+
+1P		4					4-11
+1NT		4 kara					4-8
+2T		fit 3					4-8
+2K		4					4-8
+2C		5+ 					4-8
+2P		??			 
+2NT		inwit					9-11
+3TKCP	??						
+3NT 		kontrakt
+
+
+
+
+
+1T-1K
+1P
+	
+1NT 		do gry				4-8
+2K		5+					4-8
+2C		6+					4-8
+
+1T-1K
+1NT
+
+2TK		fit 					4-8	
+2C		6+					4-8
+2P		wartoœci				9-11		
+2NT		inwit					9-11
+	
+
+1T-1P
+
+1NT		4 kiery				12-15
+2T		5+					12-15
+2KCP		4+					16+
+
+
+1T-1NT
+
+2T		relay					12-18
+
+1T-1NT
+2T
+
+2K		Starsza czwórka			12+
+2CP		5+					12+
+2NT		bez S4 i M5				12+
+3TK		5+ bez S4				12+
+
+1T-1NT
+2T-2K
+2C-relay
+
+2P 		4 piki					12+
+2NT		4 kiery				12+
+3TK		54					12+
+3CP		3-kolorówka z krótkoœci¹ T/K	12+
+3NT		4432					12+
+
+
+1T-2T
+
+2KCP		4+					12-21
+2NT		6+ trefli				12-14
+3T		6+					16+
+3KCP		5+					16+
+
+
+1T-2T
+2NT
+
+3T		minimum
+3KCP		wskazanie zatrzymania
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Odpowiedzi po 1K:
+
+1C 		4+ piki				4+	
+1P		4+kiery brak 4 pików 		4+		
+1NT		bez S4				4+		
+2T		5+					8+	   
+2CP		odzywka konwencyjna		12+					   
+							    
+1K-1C
+
+1P-		3					12+
+1NT		4 kiery				12-15
+2T		4+					12-15	
+2K		6+					12-15			
+2C		rewers 4+				16+
+2P		fit 4+					12-15
+2NT		przejœciowe				19-21
+3T		4+					16-18
+3K		6+					16-18
+3C		?
+3P		fit 4+					16-18
+3NT		4252i					19-21
+
+1K-1P
+
+1NT 		3 kiery 				12-15	
+2C		fit 4+					12-15
+2P		rewers 4+				16+
+
+1K-1C
+1P
+
+1NT		4+ kiery				4+
+2T		4+ trefle				4-8
+2K		fit 3+					4-8
+2C		inwit bez 5 pików			9-11	---> wy¿sze obiecuj¹ co najmniej
+2P		do gry						5 pików
+2NT		wywo³anie kombinowane			
+3TK		4+					9-11	
+3C		splinter				12+
+3P		bez M4				9-11
+	
+
+
+
+1K-1C
+1P-1NT
+
+2T		4+					12-15 ---> krótkoœæ kier
+2P		fit kierowy				16-18
+
+
+
+
+1K-1C
+2K
+	
+2C		54 stare				4-8
+2P		6					4-8
+2NT		inwit					9-11
+3T		5+					9-11
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+odpowiedzi po 1C:
+
+1P-		0-4 piki				4+
+1NT		5+ pików				4+
+2TK		5(4)+					10+
+2C		fit 3+					3-7(8)
+2P		Forsing do koñcówki					
+1.6+
+          2.Dwukolorówka co najmniej 55
+	3. 5+ z fitem 3+
+2NT		fit 3+					12+
+3TK		
+3C		fit 3+					9-11
+
+1C-1P
+
+1NT		4 piki					12-15
+2TK		4+					12-15
+2C		6+					12-15
+2P		rewers 4+				16+
+
+1C-2C
+
+2P		wywo³anie kombinowane---->	karta inwituj¹ca z singlem
+2NT		koloru lukowy (piki)	
+3TK		kolor lukowy	---->		pod pojêciem 'kolor lukowy' rozumiemy
+							3/4 karty z co najwy¿ej jedn¹ figur¹
+
+1C-2C
+2P-2NT-automat
+
+3TKC odpowiednio krótkoœæ trefl/karo/pik
+
+1P-2P
+2NT-3T-automat
+
+3KCP	 krótkoœæ karo/kier/trefl
+
+
+
+
+
+
+
+
+Odpowiedzi po 1NT:
+
+2T		stayman odwrotny		7+--->  Dajemy te¿ z rêk¹ typu   xxx
+2KC		transfer 5+			7+	  i pasujemy na dowoln¹ 	  xxx		
+2P		transfer na trefle 6+	7+	  odpowiedŸ partnera	  xxxxxx	
+2NT		5M431/trójkolorówka     	12+					  x
+3T		transfer 6+			
+3KCP		monokolor				12+
+3NT		Sign off				12+
+4T		inwit 
+
+1NT-2T
+
+2K		brak starszej pi¹tki
+2CP		5
+
+1NT-2T
+2K
+
+2C		4+kiery mo¿liwe 4 piki			inwit
+2P		4+ piki bez 4 kierów			inwit
+2NT		inwit bez S4					inwit
+3TK		5+		
+3NT		44 starsze					forsing
+		
+1NT-2K
+
+2C 		min					12-13
+2P		5					14-15		
+2NT		fit z 2 honorami			14-15
+3TK		5					14-15
+3C		fit 4					14-15
+
+1NT-2K
+2C
+
+2P		5+4+ starsze			7+
+2NT		inwit
+3TK		4+					12+
+3C		inwit
+3P/4TK	splinter
+3NT		s³abe kiery
+4C		inwit szlemikowy
+
+
+1NT-2K
+2C-2P
+
+2NT		pytanie bez S4
+
+3T		d³u¿sze kiery 			forsing
+3K		d³u¿sze piki				forsing
+3C		d³u¿sze kiery			inwit
+3P		d³u¿sze piki				inwit
+
+
+1NT-2NT
+3T-automat
+
+3KCP		krótkoœæ w licytowanym
+		54 na m³odszych, w przypadku
+		3K 5 trefli i starsza czwórka.
+
+
+
+
+
+
+Odpowiedzi po 2K:
+
+2C		negat, brak 3 kontroli
+		A- 2 kontrole K- jedna
+Wy¿sze odpowiedzi przyrzekaj¹ 3 kontrole
+2CP		4+
+2NT		brak S4
+3TKCP	??
+
+
+2T-2K
+
+2CP		4+
+2NT		brak S4
+
+
+
+
+
+
+
+Odpowiedzi po 2T:					Z bezwartoœciow¹ rêk¹ 
+								i 5/6 treflami pasujemy.
+2K		wieloznaczne			0+	
+2C		4+kiery mo¿liwe 4 piki		0-6
+2P		transfer na NT			0+	
+2NT		5M431 lub 4441			9+	
+3T		inwit	5+				6-8
+3KC		transfer 5+				6+---> inwit atutowy
+3P		
+
+
+
+2T-2K
+2C-automat
+
+pas 		kiery
+2P		Sign off
+2NT		inwit bez S4
+3T		transfer 6(5)+ 	Sign off lub GF
+3KC		transfer 5+				  --->	inwit bezatutowy
+3P
+
+
+
+2T-2P
+2NT-automat
+
+3T		GF lub inwit z 6(5)+ karami
+3K		inwit (5)44 stare
+3CP		4+ m³odsza pi¹tka ?
+
+
+Odpowiedzi po 2C:
+
+2P		5+ forsuje na jedno 		10+	
+		okr¹¿enie
+2NT		Pytanie o si³ê			10+
+3TK		5+					10+
+3C		blok
+3P/4TK	splinter				15+
+4C		blok
+
+2C-2P
+
+2NT		fit 3+					11-13
+3TK		wartoœci				11-13
+3C 		minimum				9-10
+3P		fit 3+					9-10
+
+2C-2NT
+	
+3TKP		wartoœci				11-13
+3C 		minimum				9-10
+
+
+
+Odpowiedzi po 2NT:
+
+3T		stayman odwrotny, obiecuje co najmniej 1 starsz¹ czwórkê
+3KC		transfer
+3P		54 na m³odych
+3NT		kontrakt
+
+2NT-3T
+
+3K		mam starsz¹ czwórkê
+3CP		5
+3NT		bez S4
+
+2NT-3T
+3K
+
+3C		4 piki
+3P		4 kiery
+
+
+
+Licytacja po interwencji:
+
+1TK-1CP-?								Dobre jest ustalenie, ¿e 
+									forsuje tylko kontra 
+Kontra		kontra sputnik, przyrzeka 	7+	i kolor przeciwnika.
+			4 karty w  2 starym			Reszta odzywek jest 
+1NT			zatrzymanie				7-9	nieforsuj¹ca lub inwituj¹ca.
+2/3/4 w kolor otwarcia			
+
+
+
+
+1NT – x – ?
+
+xx		ucieczka z rêk¹		--->    O co chodzi? Otó¿ przy naszej (bardzo)
+		jednokolorow¹			s³abej rêce nie chcemy graæ 1NT 	
+pas		wieloznaczny			z kontr¹ dlatego próbujemy znaleŸæ 	
+Poni¿sze odzywki to 'pasuj lub popraw'	jakiœ kolor do gry. Pas forsuje do xx a xx
+2T		44 trefle+ 	starszy		do 2T						
+2K		44 kara +	piki
+
+1NT – x – pas – xx 
+2T – pas – 
+
+pas		trefle
+2KCP do pasa
+
+1NT – x  – pas – pas
+xx    – pas – ?
+
+pas		chcemy graæ :)
+2T		44 trefle+kara			sign off
+2K		44 kara+ kiery			sign off
+2CP/3TK	5+ 					inwit
+2NT							forsing
+
+
+1NT – 2CP  – ?	
+Wejœcia na wysokoœci 2 nieforsuj¹ce
+na wysokoœci 3 bez przeskoku inwituj¹ce
+z przeskokiem forsuj¹ce
+kontra	karna	
+2NT lebensohl		--->		Nie wiedzieæ czemu konwencja wymyœlona     						przez Boehma nazwana innym nazwiskiem ;)
+3 w kolor otwarcia	 	Miltona¿ na 3NT bez drugiej starszej czwórki i trzymania.
+3NT				Miltona¿ na 3NT z trzymaniem bez drugiej starszej czwórki. 
+ 
+Lebensohl to albo przygotowanie sign off albo silna rêka z S4 i stoperem
+Otwieraj¹cy licytuje automat 3T
+
+1NT – 2P – 2NT – pas 
+3T – pas – ?
+
+pas /3KC	kontrakt
+3P	4+ kiery  brak stopera
+3NT	4+ kiery  stoper
+
+
+Po wejœciu I broni¹cego sztuczn¹ odzywk¹ dwukolorow¹ okreœlaj¹cej dok³adnie przynajmniej 1 z kolorów dwukolorówki:
+kontra jest karna, jeœli wejœcie wskazuje w³aœnie ten kolor; w przeciwnym wypadku oznacza mo¿liwoœæ kontrowania przynajmniej jednego z kolorów wejœcia 
+wejœcia kolorem na wysokoœci dwóch s¹ naturalne i s³abe 
+wejœcia kolorem na wysokoœci trzech s¹ forsuj¹ce do koñcówki przy braku zatrzymañ w kolorach WSKAZANYCH przez wejœcie 
+kolor wskazany przez wejœcie - fity 4+/4+ w kolorach nie wskazanych przez wejœcie, odzywka w kolor wy¿szy jest forsingiem do koñcówki, w kolor ni¿szy nie forsuje - ja osobiœcie u¿ywam opcji BLI¯SZY i DALSZY 
+3BA - do pasa, wskazanie zatrzymañ 
+2BA - Lebensohl
+Po automacie 3 licytujemy: 
+pas - s³aba rêka z 6+ treflami 
+3 w kolor ni¿szy od koloru wejœcia, nie wskazany przez to wejœcie - do pasa 
+3 w kolor wy¿szy od koloru wejœcia, nie wskazany przez to wejœcie - forsing do koñcówki, wskazanie zatrzymañ 
+3 w kolor wskazany przez wejœcie -  pytanie o zatrzymanie
+	
+
+Licytacja w obronie
+
+1TCKP - ? 
+
+one over one	kolor 5 kartowy	5-15--->	Przy minimum obiecuje ³adny 
+two over one	??					kolor
+kontra		wywo³awcza	12+--->	obiecuje po 3 karty w pozosta³ych
+1NT			zatrzymanie		15-17--
+			sk³ad zrównowa¿ony
+2 w kolor otwarcia		55 na starych	po partii 12+
+Tak zwana dwukolorówka Michelsa		My przed oni po 0-7       
+							Obie przed 7-15
+
+2NT		55 na m³odych			Przedzia³y jak wy¿ej
+
+
+1T – x – ?
+
+kolor na wysokoœci jednego 	5(4)			5-7
+rekontra				bez pi¹tki		8+
+2T					fit 4+			
+2KC					transfer forsing z 5+ lub s³abe na 6+	
+
+Transferu mo¿na nie przyj¹æ tylko przy maksimum otwarcia 
+
+1CP – x – ?
+		
+2/3/4CP 		Czysty blok szczególnie przed parti¹
+1/2/3NT		bilansowe podniesienie do 2/3/4 w kolor otwarcia
+
+
+
+
+
+
+
+

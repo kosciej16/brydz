@@ -1,0 +1,420 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[MeX,plmath]{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{bbm}
+\usepackage{indentfirst}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{anttor}
+\usepackage{graphicx}
+\usepackage{anysize}
+\usepackage{color}
+\usepackage{threeparttable}
+\marginsize{3cm}{2cm}{1cm}{1cm}
+\date{}
+\definecolor{orange}{rgb}{1,0.5,0}
+\newcommand{\CC}{\textcolor{green}\clubsuit}
+\newcommand{\DD}{\textcolor{orange}\diamondsuit}
+\newcommand{\HH}{\textcolor{red}\heartsuit}
+\newcommand{\PP}{\textcolor{black}\spadesuit}
+\author{Krystian Dowolski}
+\title{System taki trochę bardziej niezwykły}
+\begin{document} 
+\maketitle 
+%OTWARCIA
+\begin{center}\LARGE{OTWARCIA:}\\
+\end{center}
+
+
+\begin{tabular}{p{2cm} p{10cm} l}
+	1$\CC/\DD/\HH/\PP$ & 5+ & 11 - 21\\
+	1BA & skład zrównoważony & 11 - 15\\
+	2$\CC$ & klasyczne bez atu & 16 - 18\\
+	2$\DD$ & acol, GF & 22+\\
+	2$\HH\PP$ & blok 6+ & 6 - 11\\
+	2BA & sklad zrównoważony & 19 -(21)\\
+	3$\CC/\DD$ & konstruktywne\footnotemark\\
+	3$\HH/\PP$ & blokujące\\
+	3BA\footnotemark & 7M z AKD bez bocznych wartości\\
+\end{tabular}
+\footnotetext[1]{czyli 'chcę to wygrać'}
+\footnotetext[2]{gambling lub ryzykowne bez atu}
+
+\begin{center}\LARGE{OGÓLNE ZAŁOŻENIA:}\\
+\end{center}
+\begin{itemize}
+\item Ze składem 4441 otwieramy 1K (1T przy 4414 i ) i jest to jedyny skład przy
+przy którym ta odzywka nie obiecuje 5 kart. 
+\item Układy zrównoważone to zasadniczo takie bez dwóch dubli i singla,
+choć dopuszcza się otwarcie z 4441 z chronionym singlem.
+\item Acol to po prostu forsing do koncowki, a nie każde 22 punkty daje końcówkę,
+tak jak niektore 16 oczek daje... zasadniczo 9 lew wygrywajacych przy 4 lewach honorowych \\
+możliwe także 21-23 na zrównoważonym.
+\item 2$\HH/\PP$ powinno wykluczać boczną czwórkę, a już na pewno w drugim starym.
+\item Ze składem 33 w młodszych otwieramy 1$\CC$, ze składem 44 1$\DD$
+\item Ze składem 55 otwieramy w niższy w sile rewersu a w wyższy wpp.
+\item Ogólnie przyjęło się stosować prawo 4322 przy otwarciach blokujących, tj: \\
+do zapowiedzianego kontraktu może mi brakować 4 lew (my przed, oni po), 3 lew (obie przed)
+lub 2 lew (my po)
+\item Pamiętajmy, że nie wszystko można zapisać liczbami. Nie tylko ilość jest ważna, ale także jakość.
+\end{itemize}
+\newpage
+
+%LICYTACJA PO 1T
+
+\begin{center}\LARGE{1$\CC$ -- ?\footnotemark[1]}\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	1$\DD/\HH$ & transfer 4+$\HH/\PP$ & 4 - 11\\
+	1$\PP$ & bez S4 & 4 - 11\\
+	1BA\footnotemark[2] & pytanie o skład\footnotemark[3] & 12+\\
+	2$\CC$\footnotemark[4] & fit 4(3)+ & 7 - 11\\
+	2$\DD/\HH/\PP$ & 6+ & 7 - 11\\
+	2BA & inwit z 5$\DD$ & 9-11\\
+	3$\CC$ & blokujące, fit 5(4)+ & 4-7\\
+	3$\DD/\HH/\PP\footnotemark[5]$ & krótkość, fit 4+  & 12+\\
+	3BA & 3343i/3334i & 12 - 15\\
+\end{tabular}
+\footnotetext[1]{już od ŁADNYCH czterech miltona}
+\footnotetext[2]{pozyt - odzywka silna nic nie mówiąca o składzie}
+\footnotetext[3]{relay}
+\footnotetext[4]{odwrócone podniesienie}
+\footnotetext[5]{splinter}
+
+\begin{center}\LARGE{1$\CC$ -- 1$\DD$}\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	1$\HH$ & 3\footnotemark[6] & 12+\\
+	1$\PP$ & 4 & 12 - 18\\
+	1BA & 4$\DD$ & 12 -15\\
+	2$\CC$ & 6+ & 12 -15\\
+	2$\DD/\footnotemark[7]$ & 4+ & 16+\\
+	2$\HH$ & fit 4+ & 12 -15\\
+	2$\PP/\footnotemark[8]$ & 4+ & 19+\\
+	2BA & GF & 19 - 21\\
+	3$\CC$ & 6+ & 16 - 18\\
+	3$\DD/\PP$ & krótkość, fit 4+ & 19 - 21\\
+	3$\HH$ & 4+, inwit & 16 - 18\\
+\end{tabular}
+\footnotetext[6]{wyższe odpowiedzi wykluczają dokładnie 3 kiery}
+\footnotetext[7]{mały rewers}
+\footnotetext[8]{duży rewers (z przeskokiem)}
+
+\begin{center}\LARGE{1$\CC$ -- 1$\DD$\\1$\HH$ -- ?}\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	1$\PP$ & 4 & 4 - 11\\
+	1BA\footnotemark[9] & 4$\DD$ & 4 - 8\\
+	2$\CC$ & fit 3+ & 4 - 8\\
+	2$\DD$ & 4, bez 5$\HH$ & 9 - 11\\
+	2$\HH$ & 5 & 4 - 8\\
+	2$\PP\footnotemark[10]$ & jakaś krótkość z 5$\HH$ & 9 - 11\\
+	2BA & inwit & 9 - 11\\
+	3$\CC$ & fit 3+ & 9 - 11\\
+	3$\DD/\PP/BA$ & 2542i/4522i/2524i & 9 - 11\\
+	3$\HH$ & inwit 5$\HH$ & 9 - 11\\
+\end{tabular}
+\footnotetext[9]{w turniejach na maksy jest to po prostu do gry}
+\footnotetext[10]{wywołanie kombinowane}
+
+\newpage
+
+\begin{center}\LARGE{1$\CC$ -- 1$\HH$}\\
+\end{center}
+
+\begin{tabular}{p{2cm} p{10cm} l}
+	1$\PP$ & 3 & 12+\\
+	1BA & 4$\DD$ & 12 - 15\\
+\end{tabular}
+
+\begin{center}\LARGE{1$\CC$ -- 1$\PP$}\\
+\end{center}
+
+\begin{tabular}{p{2cm} p{10cm} l}
+	1BA & SO & 12 - 15\\
+	2$\CC$ & 5+ & 12 - 15\\
+	2$\DD/\HH/\PP$ & 4+ & 16+\\
+\end{tabular}
+
+\begin{center}\LARGE{1$\CC$ -- 1BA\footnotemark[1]}
+\end{center}
+
+\begin{tabular}{p{2cm} p{10cm} l}
+	
+\end{tabular}
+\footnotetext[1]{nigdy nie miałem styczności z licytacją relayową, więc
+nie wiem dokładnie, kiedy warto ją stosować. To zostaje do opracowania, póki
+co - gramy naturalnie}
+
+\begin{center}\LARGE{1$\CC$ -- 2$\CC$}
+\end{center}
+
+\begin{tabular}{p{2cm} p{10cm} l}
+	2$\DD/\HH/\PP$ & 4+$\DD/\HH/\PP$ lub stoper\footnotemark[2] & 12+\\
+	2BA & 6+$\CC$, bez bocznej 4 & 12 - 15\\
+	3$\CC$ & 6+$\CC$, bez bocznej 4 & 16+\\
+	3$\DD/\HH/\PP$ & 5+$\DD/\HH/\PP$ & 16+\\
+	3BA & SO\footnotemark[3]\\
+\end{tabular}
+	
+\footnotetext[2]{możemy sterować po prostu do 3BA i nie chcieć sprzedawać
+przeciwnikom za bardzo składu} 
+\footnotetext[3]{zasadniczo 6$\CC$322, ale możliwe też inne składy
+w nadziei, na nietrafiony wist}
+
+\newpage
+
+%LICYTACJA PO 1D
+
+\begin{center}\LARGE{1$\DD$ -- ?}\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	1$\HH$ & 4+$\PP$ & 4+\\
+	1$\PP$ & 4+$\HH$, wyklucza 4$\HH$ & 4+\\
+	1BA & bez S4 & 4+\\
+	2$\CC$ & 5+ & 10+\\
+	2$\DD$ & fit 3+ & 8+\\
+	2$\HH\PP$ & CC\footnotemark[1] & 12+\\
+	2BA & inwit, bez S4 & 9 - 11\\
+	3$\DD$ & fit 5(4)+ & 4 - 7\\
+	3$\HH\PP/4\CC$ & krótkość, fit 4+ & 12 - 15\\
+	3BA & SO, bez S4 & 12 - 15\\
+\end{tabular}
+\footnotetext[1]{conventional call - odzywka konwencyjna}
+
+
+\begin{center}\LARGE{1$\DD$ -- 1$\HH$}\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	2$\CC$ & 4+ & 12 - 18\\
+	3$\CC/\HH\footnotemark[2]$ & krótkość, fit 4+ & 16 - 18\\
+\end{tabular}
+\footnotetext[2]{minisplinter}
+
+\begin{center}\LARGE{1$\DD$ -- 1$\PP$}\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	1BA & 3$\HH$ & 12 - 15\\
+	2$\PP$ & 4+ & 16+
+\end{tabular}
+
+\begin{center}\LARGE{1$\DD$ -- 1$\HH$\\1$\PP$ -- ?}\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	1BA & 4$\HH$ & 4+\\
+	2$\HH$ & inwit, bez 5$\PP$ & 9 - 11\\
+	2BA & jakaś krótkość z 5$\PP$ & 9 - 11\\
+	3$\CC/\DD$ & 4+$\CC/\DD$ & 12+\\
+	3$\HH/4\CC/\DD$ & krotkosc & 12+\\
+\end{tabular}
+
+\begin{center}\LARGE{1$\DD$ -- 2$\DD\footnotemark[3]$}
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	2$\HH$ & minimum & 12 - 15\\
+	2$\PP/$3$\CC$ & 4$\PP/4+\CC$ & 16+\\
+	2BA & 4$\HH$ & 16+\\
+	3$\DD$ & 6+ & 16+\\
+	3$\HH\PP$ & 5+$\HH/\PP$ & 16+\\
+\end{tabular}
+
+\footnotetext[3]{warto zauważyć, że sytuacja jest nieco inna niż po 1$\CC$ -- 2$\CC$,
+gdyż 2$\DD$ jest nielimitowane górą a co za tym idzie, szanse na szlemika dużo większe}
+	
+\newpage
+
+%LICYTACJA PO 1H
+
+\begin{center}\LARGE{1$\HH$ -- ?}\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	1$\PP$ & 4- & 4+\\
+	1BA & 5+$\PP$ & 4+\\
+	2$\CC/\DD$ & 4+$\CC/\DD$ & 10+\\
+	2$\HH$ &  fit 3+ & 3 -(9)\\
+	2$\PP$ & dwukolorówka 5+$\PP$5+ & 12+\\
+	& 6+$\PP$ monokolor & 12+\\
+	& inwit z fitem 3+& 9 - 11\\
+	2BA\footnotemark[1] & fit 3+ & 12\\
+	3$\HH$ & blok, fit 4+ & 4 - 8\\
+	3$\PP$ & jakaś krótkość, fit 4+ & 9 - 11\\
+	3BA/4$\CC/\DD$ & krótkość $\PP/\CC/\DD$, fit 4+ & 12 - 15 \\
+\end{tabular}
+\footnotetext[1]{Jacoby, prawie zawsze mając fit z GF licytujemy 2BA}
+
+\begin{center}\LARGE{1$\HH$ -- 1$\PP$ }\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	1BA & 4$\PP$ & 12 - 18\\
+	2$\PP$ & 4+ & 19+\\
+\end{tabular}
+
+
+\begin{center}\LARGE{1$\HH$ -- 2$\HH$ }\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	2$\PP$ & jakaś krótkość & 16 - 21\\
+	2BA/3$\CC/\DD/$ & kolor lukowy\footnotemark[2] $\PP/\CC/\DD$ & 16 - 21\\
+\end{tabular}
+\footnotetext[2]{3/4 karty w kolorze z jednym starszym honorem}
+
+\begin{center}\LARGE{1$\HH$ -- 2$\PP$\\2BA\footnotemark[3] - ? }\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	3$\CC/\DD$ & dwukolorówki\\
+	3$\HH$ & inwit z fitem\\
+	3$\PP$/BA & 6+$\PP$, słaby/mocny kolor\\
+\end{tabular}
+
+\footnotetext[3]{pytanie}
+
+\begin{center}\LARGE{1$\PP$ -- ?}\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	3$\PP$ & inwit, fit 3+ & 9 - 11\\
+	3BA & jakaś krótkość & 9 - 11\\
+\end{tabular}
+
+\newpage
+
+%LICYTACJA PO 1BA
+
+\begin{center}\LARGE{1BA -- ?}\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	2$\CC$ & pytanie o 4$\HH/\PP\footnotemark[1]$ & 10+\footnotemark[2]\\
+	2$\DD$\footnotemark[3] & 4+$\HH \footnotemark[4]$ & 0+\\
+	2$\HH$ & 5+$\PP$ & 0+\\
+	2$\PP$ & inwit, 6+$\CC$ & 10 - 12\\
+	& co najmniej inwit, 6+$\DD$ & 10+\\
+	2BA & CC & 0+\\
+	3$\CC$ & GF, 6+$\CC$ & 13+\\
+	& SO, 6+$\DD$ & 0 - 9 \\
+	3$\DD$ & 6+$\CC/\DD$ z krótkością w drugim M & 13+\\
+	3$\HH/\PP$ & monokolor 6+$\HH/\PP$ & 13+\\
+	3BA & SO, bez 4$\HH/\PP$ & 13 - 17\\
+	4$\CC$ & pytanie o asy\footnotemark[5] & 18+\\ 
+	4$\DD/\HH$ & 6+$\HH/\PP$\footnotemark[6] & 13 - 17\\
+\end{tabular}
+
+\footnotetext[1]{stayman}
+\footnotetext[2]{możliwa także ręka, z którą chcemy spasować na każdą
+odpowiedź partnera tj. ręka typu: 4$\PP$4$\HH$4/5$\DD$}
+\footnotetext[3]{jacoby transfer}
+\footnotetext[4]{jeśli tylko 4$\HH$ toco najmniej inwit i 5+$\PP$ z boku}
+\footnotetext[5]{gerber}
+\footnotetext[6]{texas}
+
+
+\begin{center}\LARGE{1BA -- 2$\CC$}\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	2$\DD$ & brak 4$\HH$ i 4$\PP$ & 11 - 15\\
+	2$\HH$ & 4+$\HH$ & 11 - 15\\
+	2$\PP$ & 4+$\PP$, brak 4$\HH$ & 11 - 15\\
+\end{tabular}
+
+\newpage
+
+
+
+\begin{center}\LARGE{1BA -- 2$\CC$\\2$\DD$ -- ?}\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	2$\HH$ & 4+$\HH$4+$\PP$, pasuj lub popraw & 0 - 9\\
+%	2$\PP$ & 4+$\PP$, brak 4$\HH$ & 11 - 15\\
+	2BA & inwit, bez 4$\HH/\PP$ & 10 - 12\\
+	3$\CC/\DD$ & 4+$\CC/\DD$, GF & 13+\\
+	3$\HH/\PP$\footnotemark[7] & 4+$\HH/\PP$ 5+$\PP/\HH$ & 13+\\
+
+\end{tabular}
+
+\footnotetext[7]{transfer smolenia}
+
+\begin{center}\LARGE{1BA -- 2$\DD$}\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	2$\HH$ & słabe $\HH$ & 11 - 15\\
+	2$\PP$/3$\CC/\DD$ & wartości, fit 3+ & 14 - 15\\
+	2BA & dwa starsze honory w $\HH$ & 14 - 15\\
+	3$\HH$ & fit 4+ $\HH$ & 11 - 13\\
+\end{tabular}
+
+\begin{center}\LARGE{1BA -- 2$\DD$\\2$\HH$ -- 2$\PP\footnotemark[8]$\\2BA\footnotemark[8]-- ?}\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	3$\CC$ & GF & 13+\\
+	3$\DD/\HH$ &  5+$\PP$4+$\HH$/5+$\HH$4+$\PP$& 10 - 12\\
+\end{tabular}
+
+\footnotetext[8]{54$\HH\PP$ i pytanie}
+\newpage
+
+\begin{center}\LARGE{1BA -- 2$\PP$\\2BA/3$\CC$\footnotemark[1] -- ?}\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	3$\CC/\DD$ & inwit na $\CC/\DD$ & 10 - 12\\
+	3$\HH/\PP$ & GF na $\DD$, krótkość $\HH$ & 13+\\
+	3BA & SO, 6+$\DD$, bez krótkości & 13 - 17\\
+\end{tabular}
+
+\footnotetext[1]{14 - 15/11 - 13}
+
+\begin{center}\LARGE{1BA -- 2BA\\3$\CC$\footnotemark[2] -- ?}\\
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	pas & 6+$\CC$ & 0 - 9\\
+	3$\DD$ & pytanie o 5$\HH/\PP$ & 13+\\
+	3$\HH/\PP$ & 3$\HH/\PP$ i 54$\CC/\DD$ & 13+\\
+	3BA & inwit szlemikowy, bez 4$\HH/\PP$ & 18 - 20\\
+\end{tabular}
+
+\footnotetext[2]{automat}
+
+\begin{center}\LARGE{1ba -- 3$\CC$\\3$\DD\footnotemark[3]$ -- ?}
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	3$\HH/\PP$ & 6+$\CC$, krótkość $\HH/\PP$ & 13+\\
+	3BA & 6+$\CC$, bez krótkości & 13 - 17\\
+\end{tabular}
+
+\newpage
+
+\begin{center}\LARGE{2$\CC$ -- ?}
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	2$\DD/\HH$ & w pierwszym czytaniu SO na $\HH/\PP$ & 0+\\
+	2$\PP$ & transfer na BA & 7 - 9\\
+	2BA & transfer 6+$\DD$ & 0+\\
+\end{tabular}
+	
+
+\begin{center}\LARGE{2$\CC$ -- 2$\DD$\\2$\HH$ -- ?}
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	2$\PP$ & transfer na BA & 0 - 6 // 10+ \\
+	2BA & inwit 5$\HH$332\footnotemark[1] & 7 - 9\\
+	3$\CC/\DD$ & 5+$\HH$4+$\CC/\DD$ & 7+\\
+	3$\HH$ & inwit, 6+$\HH$ & 7 - 9\\
+\end{tabular}
+	
+\begin{center}\LARGE{2$\CC$ -- 2$\HH$\\2$\PP$ -- ?}
+\end{center}
+\begin{tabular}{p{2cm} p{10cm} l}
+	2BA & inwit 5$\PP$332\footnotemark[1] & 7 - 9\\
+	3$\CC/\DD/\HH$ & 5+$\PP$4+$\CC/\DD/\HH$ & 7+\\
+	3$\PP$ & inwit, 6+$\PP$ & 7 - 9\\
+\end{tabular}
+
+\footnotetext[1]{trzeba usprawnić, zdarzy się, że zagramy 3NT z bardzo złej ręki}
+	
+\newpage
+\begin{center}\LARGE{LICYTACJA DWUSTRONNA:}\\
+\end{center}
+
+\begin{tabular}{p{2cm} p{10cm} l}
+	3$\HH/\PP$ & 6+$\CC$, krótkość $\HH/\PP$ & 13+\\
+	3BA & 6+$\CC$, bez krótkości & 13 - 17\\
+\end{tabular}
+\end{document}
