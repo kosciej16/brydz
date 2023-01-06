@@ -1,0 +1,117 @@
+\documentclass[12pt]{article}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{fdsymbol}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+
+% \newcommand*\Hh[0]{{\color{red}\varheartsuit}}
+% \newcommand*\S{\color{black}\spadesuit}
+% \newcommand*\D{\color{red}\vardiamondsuit}
+% \newcommand*\C{\color{black}\clubsuit}
+\titleformat*{\section}{\Huge\bfseries}
+\titleformat*{\subsection}{\LARGE\bfseries}
+
+\newcommand*\Hs[1][]{\ensuremath{{\color{blue} #1}{\color{red}\varheartsuit}}}
+\newcommand*\Ss[1][]{\ensuremath{{\color{blue} #1}{\color{black}\spadesuit}}}
+\newcommand*\Ds[1][]{\ensuremath{{\color{blue} #1}{\color{red}\vardiamondsuit}}}
+\newcommand*\Cs[1][]{\ensuremath{{\color{blue} #1}{\color{black}\clubsuit}}}
+\newcommand*\NT[1][]{{\color{blue} #1}{\color{black}\textsc{ba}}}
+\newcommand{\tab}{\hspace*{15em}}
+% \newcommand*\Handd[4]{\\\tab\Ss{}#1\\\tab\Hs{}#2\\\tab\Ds{}#3\\\tab\Cs{}#4\\}
+\newcommand*\Hand[4]{\Ss#1\\\Hs#2\\\Ds#3\\\Cs#4\\}
+
+\renewcommand\contentsname{Spis treści}
+
+\title{System}
+\author{Krystian Dowolski}
+\begin{document}
+
+
+\tableofcontents
+\newpage
+
+\section{Styl}
+To kwestia uzgodnienia w parze. Nie wnikam w to, czy otwieracie od ładnych 13 czy brzydkich 10. Ani w to, czy wchodzicie z dobrym kolorem, z punktami, na wist czy tylko po to, by zrobić zamieszanie. Najważniejsze jest to, żeby wiedzieć, czego spodziewać się po partnerze.
+
+\vspace*{0.7cm}
+1)
+\begin{minipage}[t]{0.30\textwidth}
+    \Hand{KD}{10xxxx}{DWxx}{KW}
+\end{minipage}%
+2)
+\begin{minipage}[t]{0.30\textwidth}
+    \Hand{Axxxx}{Kxxx}{KWx}{x}
+\end{minipage}%
+3)
+\begin{minipage}[t]{0.30\textwidth}
+    \Hand{xx}{KD109xxx}{xxx}{x}
+\end{minipage}%
+\\\\
+Otwieracie? Nie otwieracie? Nieważne, ważne, żeby partner wiedział i zgadzał się na to.
+\newpage
+\section{Otwarcie \Cs[1]}
+\begin{itemize}
+    \item 12-14PC lub 18+ – układ bezatutowy
+    \item (14)15+  - 5t układ różny od 5(332)
+\end{itemize}
+\subsection{\Cs[1] - ?}
+\begin{itemize}
+    \item \Ds[1] = negat, 0-7 na dowolnym lub 8-11 bez S4 i dobrej M6
+    \item \Hs[1]/\Ss = 4+
+    \item \NT[1] = 8-10, zrównoważony
+    \item \Cs[2] = 5+\Cs, GF
+    \item \Hs[2]/\Ss = 5-8, 6+ bez A lub K bokiem
+    \item \NT[2] = 11-12, zrównoważony
+    \item \Cs[3]/\Ds = 9-11, 6+, dobry kolor
+    \item \Ss[3] = transfer na 3\NT
+\end{itemize}
+\newpage
+\subsection{\Cs[1] - \Ds[1]}
+\begin{itemize}
+    \item \Hs[1] = 3+\Hs, 12-14 lub 5\Hh 332
+    \item \Ss[1] = 3+\Ss
+    \item \NT[1] = 18-21, zrównoważony
+    \item \Cs[2] = 5+\Cs,15+
+    \item \Ds[2] = 22+ (acol)
+    \item \Hs[2] = 6\Hs lub 5\Hs 4 z boku, 18+
+    \item \Ss[2] = 6\Ss lub 5\Ss 4 z boku, 18+
+    \item \NT[2] = 22-23, zrównoważony
+    \item \Cs[3] = 6+\Cs,18+
+\end{itemize}
+\subsection{\Cs[1] - \Hs[1]/\Ss}
+\begin{itemize}
+    \item \Ss[1] = 4+\Ss{}
+    \item \NT[1] = 12-14, zrównoważony
+    \item \Cs[2] = 5+\Cs{},15+
+    \item \Ds[2] = Odwrotka, 3+\Hs/\Ss, 18+
+    \item \Hs[2]/\Ss = 4+\Hs/\Ss, 12-14
+    \item \NT[2] = 18+, bez fitu
+\end{itemize}
+\subsection{\Cs[1] - \NT[1]}
+% \begin{samepage}
+\begin{itemize}
+    \item \Cs[2] = 5+\Cs{},15+
+    \item \Hs[2]/\Ss = 5+, silny trefl
+\end{itemize}
+% \end{samepage}
+
+\newpage
+\section{Otwarcie \Ds[1]}
+\begin{itemize}
+    \item 5+\Ds, 12-17
+    \item 4\Ds, skład 4441 lub 4\Ds5\Cs
+\end{itemize}
+\subsection{\Ds[1] - ?}
+\begin{itemize}
+    \item \Cs[2] = 5+\Cs, GF
+    \item \Ds[2] = 3+\Ds, 10+
+    \item \Hs[2]/\Ss = 5-8, 6+ bez A lub K bokiem
+    \item \NT[2] = 11-12, zrównoważony
+    \item \Cs[3] = 9-11, 6+, dobry kolor
+    \item \Ds[3] = 4\Ds, 5-8
+    \item \Hs[3]/\Ss = splinter, forsuje do \Ds[4]
+\end{itemize}
+\end{document}
