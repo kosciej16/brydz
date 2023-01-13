@@ -1,27 +1,16 @@
 \documentclass[12pt]{article}
 \usepackage{color}
 \usepackage{amsmath}
-\usepackage[utf8]{inputenc}
 \usepackage{fdsymbol}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
+\usepackage{bridge}
 
 
-% \newcommand*\Hh[0]{{\color{red}\varheartsuit}}
-% \newcommand*\S{\color{black}\spadesuit}
-% \newcommand*\D{\color{red}\vardiamondsuit}
-% \newcommand*\C{\color{black}\clubsuit}
 \titleformat*{\section}{\Huge\bfseries}
 \titleformat*{\subsection}{\LARGE\bfseries}
+\titleformat*{\subsubsection}{\Large\bfseries}
 
-\newcommand*\Hs[1][]{\ensuremath{{\color{blue} #1}{\color{red}\varheartsuit}}}
-\newcommand*\Ss[1][]{\ensuremath{{\color{blue} #1}{\color{black}\spadesuit}}}
-\newcommand*\Ds[1][]{\ensuremath{{\color{blue} #1}{\color{red}\vardiamondsuit}}}
-\newcommand*\Cs[1][]{\ensuremath{{\color{blue} #1}{\color{black}\clubsuit}}}
-\newcommand*\NT[1][]{{\color{blue} #1}{\color{black}\textsc{ba}}}
-\newcommand{\tab}{\hspace*{15em}}
-% \newcommand*\Handd[4]{\\\tab\Ss{}#1\\\tab\Hs{}#2\\\tab\Ds{}#3\\\tab\Cs{}#4\\}
-\newcommand*\Hand[4]{\Ss#1\\\Hs#2\\\Ds#3\\\Cs#4\\}
 
 \renewcommand\contentsname{Spis treści}
 
@@ -37,81 +26,213 @@
 To kwestia uzgodnienia w parze. Nie wnikam w to, czy otwieracie od ładnych 13 czy brzydkich 10. Ani w to, czy wchodzicie z dobrym kolorem, z punktami, na wist czy tylko po to, by zrobić zamieszanie. Najważniejsze jest to, żeby wiedzieć, czego spodziewać się po partnerze.
 
 \vspace*{0.7cm}
+\hbadness10000
 1)
-\begin{minipage}[t]{0.30\textwidth}
+\begin{minipage}[t]{0.25\textwidth}
     \Hand{KD}{10xxxx}{DWxx}{KW}
 \end{minipage}%
 2)
-\begin{minipage}[t]{0.30\textwidth}
+\begin{minipage}[t]{0.25\textwidth}
     \Hand{Axxxx}{Kxxx}{KWx}{x}
 \end{minipage}%
 3)
-\begin{minipage}[t]{0.30\textwidth}
+\begin{minipage}[t]{0.25\textwidth}
     \Hand{xx}{KD109xxx}{xxx}{x}
 \end{minipage}%
 \\\\
-Otwieracie? Nie otwieracie? Nieważne, ważne, żeby partner wiedział i zgadzał się na to.
+Otwieracie? Nie otwieracie? Nieważne. Ważne, żeby partner wiedział i zgadzał się na to.
 \newpage
-\section{Otwarcie \Cs[1]}
+\section{Otwarcie \texorpdfstring{\Cs[1]}{1C}}
 \begin{itemize}
-    \item 12-14PC lub 18+ – układ bezatutowy
-    \item (14)15+  - 5t układ różny od 5(332)
+    \item 12–14PC lub 18+ – układ bezatutowy
+    \item (14)15+  – 5t układ różny od 5(332)
 \end{itemize}
-\subsection{\Cs[1] - ?}
+\subsection{\texorpdfstring{\Cs[1] – ?}{1C - ?}}
 \begin{itemize}
-    \item \Ds[1] = negat, 0-7 na dowolnym lub 8-11 bez S4 i dobrej M6
-    \item \Hs[1]/\Ss = 4+
-    \item \NT[1] = 8-10, zrównoważony
+    \item \Ds[1] = negat, 0–7 na dowolnym lub 8–11 bez S4 i dobrej M6
+    \item \Hs[1]/\Ss[] = 4+
+    \item \NT[1] = zrównoważony, 8–10
     \item \Cs[2] = 5+\Cs, GF
-    \item \Hs[2]/\Ss = 5-8, 6+ bez A lub K bokiem
-    \item \NT[2] = 11-12, zrównoważony
-    \item \Cs[3]/\Ds = 9-11, 6+, dobry kolor
+    \item \Hs[2]/\Ss = 6+ bez A lub K bokiem, 5–8
+    \item \NT[2] = zrównoważony, 11–12
+    \item \Cs[3]/\Ds = dobry kolor 6+, 9–11
     \item \Ss[3] = transfer na 3\NT
 \end{itemize}
 \newpage
-\subsection{\Cs[1] - \Ds[1]}
+\subsection{\texorpdfstring{\Cs[1] – \Ds[1]}{1C – 1D}}
 \begin{itemize}
-    \item \Hs[1] = 3+\Hs, 12-14 lub 5\Hh 332
-    \item \Ss[1] = 3+\Ss
-    \item \NT[1] = 18-21, zrównoważony
-    \item \Cs[2] = 5+\Cs,15+
-    \item \Ds[2] = 22+ (acol)
+    \item \Hs[1] = 3+\Hs, 12–14 lub 5\Hs332
+    \item \Hs[1] = 3+\Ss, 12–14 lub 5\Ss332
+    \item \NT[1] = zrównoważony, 18–21
+    \item \Cs[2] = 5+\Cs, 15+
+    \item \Ds[2] = skład dowolny, 22+ (acol)
     \item \Hs[2] = 6\Hs lub 5\Hs 4 z boku, 18+
     \item \Ss[2] = 6\Ss lub 5\Ss 4 z boku, 18+
-    \item \NT[2] = 22-23, zrównoważony
-    \item \Cs[3] = 6+\Cs,18+
+    \item \NT[2] = zrównoważony, 22–23
+    \item \Cs[3] = 6+\Cs, 18+
 \end{itemize}
-\subsection{\Cs[1] - \Hs[1]/\Ss}
+\subsection{\texorpdfstring{\Cs[1] – \Hs[1]/\Ss}{1C – 1H/S}}
 \begin{itemize}
-    \item \Ss[1] = 4+\Ss{}
-    \item \NT[1] = 12-14, zrównoważony
-    \item \Cs[2] = 5+\Cs{},15+
+    \item \Ss[1] = 4+\Ss
+    \item \NT[1] = zrównoważony, 12–14
+    \item \Cs[2] = 5+\Cs, 15+
     \item \Ds[2] = Odwrotka, 3+\Hs/\Ss, 18+
-    \item \Hs[2]/\Ss = 4+\Hs/\Ss, 12-14
-    \item \NT[2] = 18+, bez fitu
+    \item \Hs[2]/\Ss[] = 4+\Hs/\Ss, 12-14
+    \item \NT[2] = bez 3\Hs/\Ss, 18+
 \end{itemize}
-\subsection{\Cs[1] - \NT[1]}
+\subsection{\texorpdfstring{\Cs[1] – \NT[1]}{1C – 1NT}}
 % \begin{samepage}
 \begin{itemize}
-    \item \Cs[2] = 5+\Cs{},15+
-    \item \Hs[2]/\Ss = 5+, silny trefl
+    \item \Cs[2] = 5+\Cs, 15+
+    \item \Hs[2]/\Ss[] = 5+, 18+
 \end{itemize}
 % \end{samepage}
 
 \newpage
-\section{Otwarcie \Ds[1]}
+\section{Otwarcie \texorpdfstring {\Ds[1]}{1D}}
 \begin{itemize}
-    \item 5+\Ds, 12-17
+    \item 5+\Ds, 12–17
     \item 4\Ds, skład 4441 lub 4\Ds5\Cs
 \end{itemize}
-\subsection{\Ds[1] - ?}
+\subsection{\texorpdfstring{\Ds[1] – ?}{1D – ?}}
 \begin{itemize}
     \item \Cs[2] = 5+\Cs, GF
     \item \Ds[2] = 3+\Ds, 10+
-    \item \Hs[2]/\Ss = 5-8, 6+ bez A lub K bokiem
-    \item \NT[2] = 11-12, zrównoważony
-    \item \Cs[3] = 9-11, 6+, dobry kolor
-    \item \Ds[3] = 4\Ds, 5-8
-    \item \Hs[3]/\Ss = splinter, forsuje do \Ds[4]
+    \item \Hs[2]/\Ss[] = 6+ bez A lub K bokiem, 5–8
+    \item \NT[2] = zrównoważony, 11–12
+    \item \Cs[3] = dobry kolor 6+, 9–11
+    \item \Ds[3] = 4\Ds, 5–8
+    \item \Hs[3]/\Ss[] = splinter, forsuje do \Ds[4]
 \end{itemize}
+
+\newpage
+\section{Otwarcie \texorpdfstring{\Hs[1]}{1H}}
+\begin{itemize}
+    \item 5+\Hs, 12–17 (z wyłączeniem składu 35(32) w sile 15–17)
+\end{itemize}
+\subsection{\texorpdfstring{\Hs[1] – ?}{1H – ?}}
+\begin{itemize}
+    \item \Cs[2] = 2+\Cs, GF
+    \item \Ds[2] = 5+\Ds, GF
+    \item \Hs[2] = 3+\Hs, 6-9 
+    \item \Ss[2] = 6+ bez A lub K bokiem, 5–8
+    \item \NT[2] = 3–4\Hs, 10–12 inv z fitem
+    \item \Cs[3]/\Ds[] = dobry kolor 6+, brak fitu \Hs, 9–11
+    \item \Hs[3] = 4+\Hs, blokujące
+    \item \Ss[3]/\Cs[4]/\Ds[4] = splinter, forsuje do \Hs[4]
+\end{itemize}
+
+\newpage
+\section{Otwarcie \texorpdfstring{\Ss[1]}{1S}}
+\begin{itemize}
+    \item 5+\Ss, 12–17
+\end{itemize}
+\subsection{\texorpdfstring{\Ss[1] – ?}{1S – ?}}
+\begin{itemize}
+    \item \Cs[2] = 2+\Cs, GF
+    \item \Ds[2] = 5+\Ds, GF
+    \item \Hs[2] = 5+\Hs, GF
+    \item \Ss[2] = 3+\Ss, 6-9 
+    \item \NT[2] = 3+\Ss, 10–12
+    \item \Cs[3]/\Ds/\Hs[] = dobry kolor 6+, brak fitu \Ss, 9–11
+    \item \Ss[3] = 4+\Ss, blokujące
+    \item \Cs[4]/\Ds/\Hs[] = splinter, forsuje do \Ss[4]
+\end{itemize}
+
+\newpage
+\section{Otwarcie \texorpdfstring{\NT[1]}{1NT}}
+\begin{itemize}
+    \item Skład zrównoważony, 15-17
+\end{itemize}
+\subsection{\texorpdfstring{\NT[1] – ?}{1NT – ?}}
+\begin{itemize}
+    \item \Cs[2] = pytanie o starszą czwórkę, 4\Hs4\Ss 0+ lub od 8
+    \item \Ds[2]/\Hs[] = transfer, 5+\Hs/\Ss, 0+
+    \item \Ss[2] = 6+\Cs, 0+
+    \item \NT[2] = 6+\Ds, 0+
+    \item \Cs[3]/\Ds[] = ktoś to w ogóle czyta, 12-18 
+    \item \Hs[3]/\Ss[] = 1-3(45)+/31-(45)+, GF
+\end{itemize}
+
+\newpage
+\section{Otwarcie \texorpdfstring{\Cs[2]}{2C}}
+\begin{itemize}
+    \item 6+\Cs, 11-14
+    \item 5\Cs[] i 4\Hs/4\Ss[] ale \textbf{bez składu 4405}
+\end{itemize}
+\subsection{\texorpdfstring{\Cs[2] – ?}{1C – ?}}
+\begin{itemize}
+    \item \Ds[2] = pytanie o skład, S4 i 8+ lub dowolne 10+
+    \item \Hs[2]/\Ss[] = 5+, NF
+    \item \NT[2] = transfer na 3\Cs, dobry fit 0-9 albo 55 bez \Cs, 9-12
+    \item \Cs[3] = transfer na 3\Ds, kara, SO albo 55 bez \Cs, GF
+    \item \Ds[3]/\Hs/\Ss[] = 6+, inwit
+\end{itemize}
+
+\newpage
+\section{Otwarcie \texorpdfstring{\Ds[2]}{2D}}
+\begin{itemize}
+    \item Sekcja dla Pana Macieja Boczara
+\end{itemize}
+
+\newpage
+\section{Otwarcie \texorpdfstring{\Hs[2]}{2H}}
+\begin{itemize}
+    \item Sekcja dla Pana Macieja Grabca
+\end{itemize}
+
+\newpage
+\section{Otwarcie \texorpdfstring{\NT[2]}{2NT}}
+\begin{itemize}
+    \item Sekcja dla pracowitej Paulinki
+    \item Awww urocze \Hs \Hs \Hs  (chyba pierwszy raz w życiu, ktoś mnie nazwał 'pracowitą' ;))) Aż poszłam po książeczkę Jassema WJ 2020 i dzielnie wklepuję ;)
+    \item 5+\Cs\Ds, 6–11 
+\end{itemize}
+\subsection{\texorpdfstring{\NT[2] – ?}{2NT – ?}}
+\begin{itemize}
+    \item \Cs[3]/\Ds[] = wybór lepszego koloru, do pasa
+    \item \Hs[3] = sztuczne pytanie o skład
+    \item \Ss[3] = sztuczny inwit do końcówki lub szlemika w kolor młodszy
+    \item \NT[3] = do gry
+    \item \Cs[4]/\Ds[] = blokujące
+    \item \Hs[4]/\Ss[] = do gry
+    \item \NT[4] = prośba o wybór lepszego młodszego, blokujące
+    \item \Cs[5]/\Ds[5] = do gry
+\end{itemize}
+\subsubsection{\texorpdfstring{\NT[2] – \Hs[3] – ?}{2NT – 3H - ?}}
+\begin{itemize}
+    \item Odzywka \Hs[3] jest forsującym do końcówki pytaniem o układ. Dajemy ją z szansami na grę premiową.
+    \item \NT[2] – \Hs[3]
+  \\ ?
+  \item \Ss[3] = krótkość \Ss[]
+  \item \NT[3] = krótkość \Hs[]
+  \item \Cs[4]/\Ds[] = licytowana 6, skład 1156(65)
+  \item \Hs[4]/\Ss[] = licytowany renons
+  \item Po odpowiedziach \Ss[3]/\NT[] odzywka \Cs[4]/\Ds[] silnie uzgadnia wskazany kolor i prosi o cuebid (dalej \NT[4] jest pytaniem o asy na wskazanym kolorze)
+  \item Po odpowiedziach na poziomie 4, \NT[4] jest blackwoodem na 4 wartości
+  \end{itemize}
+\subsubsection{\texorpdfstring{\NT[2] – \Ss[3] – ?}{2NT – 3S - ?}}
+\begin{itemize}
+    \item Odzywka \Ss[3] jest inwitem do końcówki/szlemika. Otwierający licytuje obowiązkowo \NT[3] a odpowiadający wybiera kolor młodszy: \Cs[4]/\Ds[] są inwitem do końcówki w licytowany kolor, \Cs[5]/\Ds[] są inwitem do szlemika w ten kolor.
+\end{itemize}
+
+\newpage
+\section{Otwarcie \texorpdfstring{\Cs[2]}{2C}}
+\begin{itemize}
+    \item 6+\Cs, 11-14
+    \item 5\Cs[] i 4\Hs/4\Ss[] ale \textbf{bez składu 4405}
+\end{itemize}
+\subsection{\texorpdfstring{\Cs[2] – ?}{1C – ?}}
+\begin{itemize}
+    \item \Ds[2] = pytanie o skład, S4 i 8+ lub dowolne 10+
+    \item \Hs[2]/\Ss[] = 5+, NF
+    \item \NT[2] = transfer na 3\Cs, dobry fit 0-9 albo 55 bez \Cs, 9-12
+    \item \Cs[3] = transfer na 3\Ds, kara, SO albo 55 bez \Cs, GF
+    \item \Ds[3]/\Hs/\Ss[] = 6+, inwit
+\end{itemize}
+
+\newpage
+\section{Licytacja szlemikowa}
+
 \end{document}
+
