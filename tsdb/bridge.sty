@@ -1,0 +1,12 @@
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{bridge}
+  [2011/01/11 v0.01 LaTeX package for my own purpose]
+
+\newcommand*\Hs[1][]{\ensuremath{{\color{blue} #1}{\color{red}\varheartsuit}}}
+\newcommand*\Ss[1][]{\ensuremath{{\color{blue} #1}{\color{black}\spadesuit}}}
+\newcommand*\Ds[1][]{\ensuremath{{\color{blue} #1}{\color{red}\vardiamondsuit}}}
+\newcommand*\Cs[1][]{\ensuremath{{\color{blue} #1}{\color{black}\clubsuit}}}
+\newcommand*\NT[1][]{{\color{blue} #1}{\color{black}\textsc{BA}}}
+\newcommand*\Hand[4]{\Ss#1\\\Hs#2\\\Ds#3\\\Cs#4\\}
+
+\endinput
