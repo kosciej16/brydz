@@ -22,7 +22,6 @@ jobs:
     - name: Compile LaTeX document
       uses: xu-cheng/latex-action@v2
       with:
-        working_directory: tsdb
         root_file: ${{ steps.changed-files.outputs.all_changed_files }}
         latexmk_use_xelatex: true
     # - name: Commit files
