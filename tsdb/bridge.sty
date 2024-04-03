@@ -2,11 +2,27 @@
 \ProvidesPackage{bridge}
   [2011/01/11 v0.01 LaTeX package for my own purpose]
 
-\newcommand*\Hs[1][]{\ensuremath{{\color{blue} #1}{\color{red}\varheartsuit}}}
-\newcommand*\Ss[1][]{\ensuremath{{\color{blue} #1}{\color{black}\spadesuit}}}
-\newcommand*\Ds[1][]{\ensuremath{{\color{blue} #1}{\color{red}\vardiamondsuit}}}
-\newcommand*\Cs[1][]{\ensuremath{{\color{blue} #1}{\color{black}\clubsuit}}}
-\newcommand*\NT[1][]{{\color{blue} #1}{\color{black}\textsc{BA}}}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{fdsymbol}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{xspace}
+\xspaceremoveexception{-}
+\renewcommand*{\H}[1][]{\ensuremath{{\color{blue} #1}{\color{red}\varheartsuit}}}
+\renewcommand*{\S}[1][]{\ensuremath{{\color{blue} #1}{\color{black}\spadesuit}}}
+\newcommand*{\D}[1][]{\ensuremath{{\color{blue} #1}{\color{red}\vardiamondsuit}}}
+\renewcommand*{\C}[1][]{\ensuremath{{\color{blue} #1}{\color{black}\clubsuit}}}
+\newcommand*{\N}[1][]{{\color{blue} #1}{\color{black}\textsc{BA}}}
+\newcommand*{\All}[1][]{\ensuremath{{\color{blue} #1}{\C/\D/\H/\S}}}
+\newcommand*{\X}{{\color{red}\textsc{x}}\xspace}
+
 \newcommand*\Hand[4]{\Ss#1\\\Hs#2\\\Ds#3\\\Cs#4\\}
+
+\titleformat*{\section}{\Huge\bfseries}
+\titleformat*{\subsection}{\LARGE\bfseries}
+\titleformat*{\subsubsection}{\Large\bfseries}
+
+\renewcommand\contentsname{Spis treści}
 
 \endinput

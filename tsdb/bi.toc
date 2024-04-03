@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Opis}{2}{section.1}%
+\contentsline {section}{\numberline {2}p - \All [1] - {\color {red}\textsc {x}}\xspace }{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}p - \C [1] - {\color {red}\textsc {x}}\xspace - p}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}p - \C [1] - {\color {red}\textsc {x}}\xspace - \H [1]}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}p - \D [1] - {\color {red}\textsc {x}}\xspace - p}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}p - \H [1] - {\color {red}\textsc {x}}\xspace - p}{2}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}p - \H [1] - {\color {red}\textsc {x}}\xspace - \H 2}{3}{subsection.2.5}%

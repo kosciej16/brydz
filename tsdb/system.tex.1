@@ -1,0 +1,104 @@
+\documentclass[11pt,a4paper,oneside]{report}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{arev}
+\usepackage{kpfonts}
+\usepackage[utf8]{inputenc}
+
+
+
+\newcommand*\Hs[1]{\ensuremath{{\color{blue} #1}{\color{red}\varheartsuit}}}
+\newcommand*\Ss[1]{\ensuremath{{\color{blue} #1}{\color{black}\spadesuit}}}
+\newcommand*\Ds[1]{\ensuremath{{\color{blue} #1}{\color{red}\vardiamondsuit}}}
+\newcommand*\Cs[1]{\ensuremath{{\color{blue} #1}{\color{black}\clubsuit}}}
+\newcommand*\NT[1]{{\color{blue} #1}{\color{black}\textsc{ba}}}
+\newcommand{\tab}{\hspace*{15em}}
+\newcommand*\Hand[4]{\\\tab\Ss{}#1\\\tab\Hs{}#2\\\tab\Ds{}#3\\\tab\Cs{}#4\\}
+
+\title{System}
+\author{Krystian Dowolski}
+\begin{document}
+
+\maketitle
+\section*{1BA}
+Słabe BA ma wiele zalet, jak i wad, choć w mojej opinii te pierwsze zwycieżają.
+Może służyć zarówno szybkiemu opisowi ręki jak i mieć charakter blokujący:
+\Hand{Kx}{Wx}{A10xxx}{KW9x}
+Otwieramy \NT{1}, bardzo możliwe, że przeciwnikom idzie coś w stary za 110,
+ewentualna wpadka za 100 powinna więc być opłacalna, po kontrze mamy na co uciekać.\\
+Problemem jest tylko sytuacja, w której partner jest bardzo słaby, nie trafimy w co uciec
+i w dodatku nas skontrują. Choć takie sytuacje nie zdarzają się często, preferuję
+otwieranie \NT{1} z bardzo różnymi rodzajami rąk - 5332 z dowolną! piątką, 6M322, 4441
+z singlowym asem czy 5M422 z wartościami w dublach. Innymi słowy, otwieramy \NT{1}, gdy
+nie mamy wyraźnych przeciwskazań, przeciwko graniu BA. Ułatwi to zdecydownie licytację
+po otwarciach w kolor.\\
+Przed partią 11+--16-, po od 12+\\
+
+\subsection*{1BA-\Cs{2}}
+W większości wypadków jest to stayman, niektórzy grają puppet staymanem lub staymanem
+rozkładowym. Wydaje się, że przy otwarciach BA ze starszą piątką, konieczne jest granie
+puppet staymanem. Jednak takie ustalenie nakazuje pasować z ręką typu:
+\Hand{KWxx}{W10xxx}{xx}{xx}
+co może się źle skończyć. Druga sprawa jest taka, że często po staymanie i tak
+gramy 2/3BA. Gdyby dało się go uczynić mniej informacyjnym, co przy odchyłach w otwieraniu
+1BA często okaże się ważne, moglibyśmy wygrywać końcówki na nietrafionym wiście.
+Dlatego pierwszą propozycją jest to, by stayman \textbf{nie przyrzekał starszej czwórki}.
+Pozwala to wykorzystać więcej odzywek, a także (w moim odczuciu) jest mniej informacyjne.
+Popatrzmy:\\\\
+\begin{minipage}[c]{0.30\textwidth}
+1BA -- \Cs{2}\\
+\Ds{2} -- 2/3BA
+\end{minipage}%
+\begin{minipage}{0.30\textwidth}
+1BA -- \Cs{2}\\
+\Hs{2} -- 2/3BA
+\end{minipage}%
+\begin{minipage}{0.30\textwidth}
+1BA -- \Cs{2}\\
+\Ss{2} -- 2/3BA
+\end{minipage}%
+\\\\
+W pierwszej sekwencji wiemy, że rozgrywający nie ma S4, nic nie wiemy o dziadku.
+(Analogia do licytacji 1BA -- 3BA, w której wiemy to o ręce dziadka). Druga sekwencja
+przekazuje niestety informację o kierach rozgrywającego, trzecia natomiast, w przeciwieństwie
+do klasycznego staymana, nie mówi nic o tym kolorze, czyniąc wist kierowy bardziej atrakcyjnym -
+być może w kolor naszego czterokartu.\\
+Pozostaje jeszcze zagadnienie odnalezienia koloru 5-3, proponuję zastosować następujący
+schemat odpowiedzi:\\\\
+\Ds{2} -- brak \Hs{4} i \Ss{5}\\
+\Hs{2} -- \Hs{4+}\\
+\Ss{2} -- \Ss{5}\\
+Dalsza licytacja jest klasyczna, z tym, że \Ss{2} oznacza po prostu co najmniej
+inwit z 4 pikami. Klasyczne znaczenie tej odzywki (czyli inwit 5\Ss{}4\Hs{}) wsadzimy gdzie indziej.
+
+\subsection*{1BA-\Ds{2}}
+Prawie zwykły transfer, przy czym może być z czwórki przy pięciu pikach z boku w sile co najmniej inwitu.
+
+\subsection*{1BA-\Ss{2}}
+Z tym było trochę problemów. Chciałem wpakować w tę odzywkę słabą rękę na młodych, coś w stylu
+\Hand{xx}{xx}{D109x}{DW8xx}
+czyli coś, z czym nie chcemy zostać na 1BA, a także nie chcemy przesądzać grę w konkretny młody.
+Oprócz tego musiał także istnieć możliwość sprzedania młodego w dowolnej sile. Proponuję takie
+rozwiązanie:\\
+\subsection*{\Ss{2}}
+\begin{enumerate}
+    \item wspomniana ręka
+    \item 6+\Ds{} w dowolnej sile
+\end{enumerate}
+\subsection*{\Ss{2} -- ?}
+2BA -- maksimum\\
+\Cs{3} -- minimum trefle nie krótsze\\
+\Ds{3} -- minimum kara dłuższe\\
+\newpage
+\noindent Oczywiście minimum w kontekście 6 kar u partnera. Ręka typu
+\Hand{D109x}{K10x}{Axxx}{Kx}
+raczej wystarcza na odpowiedź 2BA
+
+\subsection*{2BA}
+Słabe lub silne na treflach, licytacja analogiczna jak po \Cs{3} w znaczeniu transferu.
+
+\subsection*{\Cs{3}}
+Po prostu inwit na treflach
+
+A gdzie klasyczny inwit? W takim wypadku przechodzimy przez staymana, a potem zapowiadamy 2BA
+\end{document}
